@@ -1,0 +1,14 @@
+/**
+ * @author Elias De Hondt
+ * @see https://eliasdh.com
+ * @since 08/08/2021
+ */
+.slideshow {
+    max-width: auto;
+    margin: 0 auto;
+}
+.slideshowimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
