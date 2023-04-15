@@ -4,20 +4,19 @@
  * @since 08/08/2021
  */
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
 .slideshowphoto {
     width: auto;
     margin: 0 auto;
 }
 
 .photo {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .slideshowvideo {
