@@ -4,8 +4,13 @@
  * @since 08/08/2021
  */
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 .slideshowphoto {
-    max-width: auto;
+    width: auto;
     margin: 0 auto;
 }
 
